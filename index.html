@@ -6,13 +6,12 @@
     <title>Manila 2104</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.68/build/spline-viewer.js"></script>
 </head>
 <body>
-    <!-- Hero Section with Spline Background -->
-    <section class="hero">
+    <!-- Hero div with Spline Background -->
+    <div class="hero">
         <div class="spline-background">
-            <spline-viewer url="https://prod.spline.design/fFnscI3dJQT2v-CU/scene.splinecode"></spline-viewer>
+            <iframe src='https://my.spline.design/noirscene-33cabf641c07f1e530c2d3c91e98cb11/' frameborder='0' width='100%' height='100%'></iframe>
         </div>
         <div class="hero-content">
             <div class="typewriter">
@@ -21,23 +20,24 @@
                   <h2>The fight for freedom begins now.</h2>
                 </div>
             </div>              
-            <button class="btn" onclick="document.querySelector('.features').scrollIntoView({ behavior: 'smooth' })">
+            <button class="btn" onclick="document.querySelector('.about').scrollIntoView({ behavior: 'smooth' })">
                 Explore Now
             </button>
         </div>
-    </section>
+    </div>
     
-    <!-- About Section -->
-    <section class="about">
+    <!-- About div -->
+    <div class="about">
         <h2>Dive into a dystopian world where mystery and technology collide.</h2>
         <p>Will you break the chains or become another forgotten whisper in the dark?</p>
-    </section>
+    </div>
 
-    <!-- Game Overview Section -->
-    <section id="game-overview">
+    <!-- Game Overview div -->
+    <div id="game-overview">
         <div class="container">
             <h2>What is Manila 2104?</h2>
-            <p>A Metroidvania set in a dystopian, surveillance-ridden Manila. You are a disgraced ex-military officer, betrayed by the regime. Navigate the city, hack systems, and fight to uncover the truth—or be erased.</p>
+            <p>It is a Metroidvania game set in Dystopian Manila in the year 2104. Inspired by George Orwell’s 1984, players assume the role of a disgraced ex-military officer navigating a surveillance-heavy city to uncover buried truths about the authoritarian regime that betrayed him. With no melee combat, the protagonist relies on precise gunplay, stealth, and hacking mechanics to evade detection and survive.
+                The game’s black-and-white aesthetic reflects the oppressive tone of the world, while pixelated rotoscope cutscenes drive the narrative forward, emphasizing emotional, cinematic moments.</p>
             
             <div class="features">
                 <div class="feature-item">
@@ -58,18 +58,18 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <!-- Gameplay Sneak Peek Section -->
-    <section id="gameplay">
+    <!-- Gameplay Sneak Peek div -->
+    <div id="gameplay">
         <div class="container">
             <h2>Gameplay Sneak Peek</h2>
             <p>Every decision you make shifts the fate of Manila—and your own. Choose wisely, as the regime is always watching.</p>
         </div>
-    </section>
+    </div>
 
-    <!-- Call to Action Section -->
-    <section id="cta">
+    <!-- Call to Action div -->
+    <div id="cta">
         <div class="container">
             <h2>Join the Resistance</h2>
             <p>Stay updated. The city is watching, but so can you.</p>
@@ -79,9 +79,9 @@
                 <button>Join Discord</button>
             </div>
         </div>
-    </section>
+    </div>
 
-    <!-- Footer Section -->
+    <!-- Footer div -->
     <footer>
         <p>"The truth is out there. The regime hopes you never find it."</p>
         <p>&copy; 2025 Manila 2104. All rights reserved.</p>
